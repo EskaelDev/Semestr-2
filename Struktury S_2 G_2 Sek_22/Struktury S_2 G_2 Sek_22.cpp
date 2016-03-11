@@ -6,6 +6,8 @@
 
 int main()
 {
+	printf("padaka, ids");
+
     return 0;
 }
 

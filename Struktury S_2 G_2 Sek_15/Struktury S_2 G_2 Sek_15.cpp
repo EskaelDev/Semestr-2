@@ -6,7 +6,7 @@
 
 int main()
 {
-	printf("padaka");
+	printf("padaka, ids");
     return 0;
 }
 
