@@ -16,7 +16,9 @@ struct opady
 
 int main()
 {
-
+	cout << "barnaba  v" << endl;
+	cout << "barnaba  v" << endl;
+	cout << "barnaba  v" << endl;
     return 0;
 }
 
