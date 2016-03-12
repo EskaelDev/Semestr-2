@@ -2,11 +2,20 @@
 //
 
 #include "stdafx.h"
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+struct opady
+{
+	string miasto;
+	double deszcz;
+};
 
 
 int main()
 {
-	printf("padaka, ids");
 
     return 0;
 }
