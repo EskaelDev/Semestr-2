@@ -105,7 +105,7 @@ int main()
 	}
 	_getch();
     return 0;
-}*/
+}*//*
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
@@ -156,6 +156,94 @@ int main()
 				for (int k = 0; k < j; k++)
 				{
 					if (tab[j].gatunek.compare(tab[k].gatunek))
+						pom = false;
+				}
+				if (pom)
+				{
+					cout << lp + 1 << " " << tab[j].gatunek << " " << tab[j].polow << endl;
+					lp++;
+				}
+			}
+			else cout << lp << " " << tab[j].gatunek << " " << tab[j].polow << endl;
+		}
+
+		delete tab;
+		fclose(plik);
+	}
+	_getch();
+	return 0;
+}*/
+#include "stdafx.h"
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <string>
+#include <windows.h>
+
+
+using namespace std;
+
+void SetWindow(int Width, int Height)
+{
+	_COORD coord;
+	coord.X = Width;
+	coord.Y = Height;
+
+	_SMALL_RECT Rect;
+	Rect.Top = 0;
+	Rect.Left = 0;
+	Rect.Bottom = Height - 1;
+	Rect.Right = Width - 1;
+
+	HANDLE Handle = GetStdHandle(STD_OUTPUT_HANDLE);      // Get Handle
+	SetConsoleScreenBufferSize(Handle, coord);            // Set Buffer Size
+	SetConsoleWindowInfo(Handle, TRUE, &Rect);            // Set Window Size
+}
+
+
+
+struct ryby
+{
+	char gatunek[18];
+	float polow;
+};
+
+
+int main()
+{
+	SetWindow(200, 75);
+	FILE *plik;
+	if ((plik = fopen("S:\plik.txt", "r")) == NULL)
+		cout << "nie otwarto pliku" << endl;
+	else
+	{
+		bool pom;
+		int i = 0, lp = 1;
+		float polowy = 0;
+		ryby *tab = new ryby[100];
+
+		while (!feof(plik))
+		{
+			fscanf(plik, "%s", &tab[i].gatunek);
+			fscanf(plik, "%f", &tab[i++].polow);
+		}
+
+
+		//sumwanie tych samych/////
+		for (int j = 0; j < i; j++)
+			for (int k = j + 1; k < i; k++)
+				if (!strcmp(tab[j].gatunek, tab[k].gatunek))
+					tab[j].polow += tab[k].polow;
+
+
+		for (int j = 0; j < i; j++)
+		{
+			pom = true;
+			if (j > 0)
+			{
+				for (int k = 0; k < j; k++)
+				{
+					if (!strcmp(tab[j].gatunek, tab[k].gatunek))
 						pom = false;
 				}
 				if (pom)
