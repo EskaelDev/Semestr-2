@@ -1,12 +1,7 @@
 // Struktury S_2 G_2 Sek_15.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
-#include <iostream>
-#include <stdio.h>
-#include <conio.h>
-#include <string>
-#include <fstream>
+
 
 /*
 using namespace std;
@@ -173,11 +168,12 @@ int main()
 	_getch();
 	return 0;
 }*/
+
 #include "stdafx.h"
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
-#include <string>
+#include <fstream>
 #include <windows.h>
 
 
@@ -259,5 +255,6 @@ int main()
 		fclose(plik);
 	}
 	_getch();
+
 	return 0;
 }
