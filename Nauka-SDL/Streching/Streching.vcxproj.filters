@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Reakcja_na_klawisze.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Streching\Streching.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Obraz_PNG.cpp">
+    <ClCompile Include="Streching.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

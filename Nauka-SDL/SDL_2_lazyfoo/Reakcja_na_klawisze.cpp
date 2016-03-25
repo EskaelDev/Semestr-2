@@ -164,7 +164,7 @@ int main(int argc, char* args[] )
 			SDL_Event e;
 
 			// Domyslna powierzchnia
-			gCurrentSurface = gKeyPressSurfaces[KEY_PRESS_SURFACE_UP];
+			gCurrentSurface = gKeyPressSurfaces[KEY_PRESS_SURFACE_DEFAULT];
 
 			// Petla gry
 			while(!quit)
