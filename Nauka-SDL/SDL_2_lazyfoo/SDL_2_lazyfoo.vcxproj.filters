@@ -24,5 +24,8 @@
     <ClCompile Include="Obraz_PNG.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Textury_Ladowanie_i_Renderowanie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
