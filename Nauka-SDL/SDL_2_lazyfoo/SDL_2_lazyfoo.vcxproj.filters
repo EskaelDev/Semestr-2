@@ -27,5 +27,8 @@
     <ClCompile Include="Textury_Ladowanie_i_Renderowanie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Renderowanie_geometryczne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
