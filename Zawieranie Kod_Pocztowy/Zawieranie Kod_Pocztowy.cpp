@@ -113,7 +113,7 @@ int main()
 {
 	KodPocztowy kod(77, 145);
 	kod.scalanie(kod.tab);
-	Adres adres("Reymonta", "8", "5", "Sosnowiec", kod.tab);
+	Adres adres("Dekadentow", "1", "5", "Gliwice", kod.tab);
 
 
 	cout << adres.WypiszNazwaMiasta() << " " << adres.WypiszNazwaMiasta() << " " << adres.WypiszNazwaUlicy() << " "
