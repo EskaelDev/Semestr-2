@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include <string.h>
+#include <conio.h>
 
 using namespace std;
 
@@ -119,7 +120,7 @@ int main()
 		<< adres.WypiszNumerBudynku() << adres.WypiszNumerLokalu() << " " << adres.WypiszKodPocztowy() << " " << endl;
 
 
-
+	_getch();
     return 0;
 }
 
