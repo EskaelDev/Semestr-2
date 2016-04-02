@@ -57,48 +57,48 @@ void KodPocztowy::scalanie(char* tab)
 
 class Adres
 {
-	string NazwaUlicy, NumerBudynku, NumerLokalu, NazwaMiasta, adres;
+	char NazwaUlicy[30], NumerBudynku[3], NumerLokalu[3], NazwaMiasta[40], adres[7];
 	char kodPocztowy[7];
 public:
-	Adres(string, string, string, string, char*);
-	string WypiszNazwaUlicy() const;
-	string WypiszNumerBudynku()const;
-	string WypiszNumerLokalu()const;
-	string WypiszNazwaMiasta()const;
-	string WypiszAdres()const;
+	Adres(char*, char*, char*, char*, char*);
+	char* WypiszNazwaUlicy();
+	char* WypiszNumerBudynku();
+	char* WypiszNumerLokalu();
+	char* WypiszNazwaMiasta();
+	char* WypiszAdres();
 	char* WypiszKodPocztowy();
 };
 
-Adres::Adres(string nazwaulicy, string numerbudynku, string numerlokalu, string nazwamiasta, char* kodpocztowy)
+Adres::Adres(char* nazwaulicy, char* numerbudynku, char* numerlokalu, char* nazwamiasta, char* kodpocztowy)
 {
-	NazwaMiasta = nazwamiasta;
-	NazwaUlicy = nazwaulicy;
-	NumerBudynku = numerbudynku;
-	NumerLokalu = numerlokalu;
+	strcpy(NazwaUlicy, nazwaulicy);
+	strcpy(NumerBudynku, numerbudynku);
+	strcpy(NumerLokalu, numerlokalu);
+	strcpy(NazwaMiasta, nazwamiasta);
 	strcpy(kodPocztowy, kodpocztowy);
 }
 
-string Adres::WypiszAdres()const
+char* Adres::WypiszAdres()
 {
 	return adres;
 }
 
-string Adres::WypiszNazwaMiasta()const
+char* Adres::WypiszNazwaMiasta()
 {
 	return NazwaMiasta;
 }
 
-string Adres::WypiszNazwaUlicy()const
+char* Adres::WypiszNazwaUlicy()
 {
 	return NazwaUlicy;
 }
 
-string Adres::WypiszNumerBudynku()const
+char* Adres::WypiszNumerBudynku()
 {
 	return NumerBudynku;
 }
 
-string Adres::WypiszNumerLokalu()const
+char* Adres::WypiszNumerLokalu()
 {
 	return NumerLokalu;
 }
