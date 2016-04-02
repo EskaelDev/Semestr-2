@@ -99,6 +99,7 @@ void Adres::ZerujTablice(char* ulica, char* budynek, char* lokal, char* miasto)
 
 Adres::Adres(char* nazwaulicy, char* numerbudynku, char* numerlokalu, char* nazwamiasta, char* kodpocztowy)
 {
+	ZerujTablice(NazwaUlicy, NumerBudynku, NumerLokalu, NazwaMiasta);
 	strcat(NazwaUlicy, nazwaulicy);
 	strcat(NumerBudynku, numerbudynku);
 	strcat(NumerLokalu, numerlokalu);
@@ -145,7 +146,7 @@ int main()
 
 
 	cout << adres.WypiszNazwaMiasta() << " " << " " << adres.WypiszNazwaUlicy() << " "
-		<< adres.WypiszNumerBudynku() << adres.WypiszNumerLokalu() << " " << adres.WypiszKodPocztowy() << " " << endl;
+		<< adres.WypiszNumerBudynku() << " " << adres.WypiszNumerLokalu() << " " << adres.WypiszKodPocztowy() << " " << endl;
 
 
 	_getch();
