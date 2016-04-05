@@ -30,5 +30,8 @@
     <ClCompile Include="Renderowanie_geometryczne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

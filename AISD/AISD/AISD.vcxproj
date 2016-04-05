@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B38F0785-0EA8-4782-8434-E9FC811BD753}</ProjectGuid>
+    <ProjectGuid>{8475FFA1-EC7A-4311-A026-DDDD54048F33}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ZawieranieNumer_telefonu</RootNamespace>
+    <RootNamespace>AISD</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -149,8 +149,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AISD.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -52,13 +52,14 @@ char* NumerTelefonu::WypiszNumer()
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 class Kontakt
 {
-	char Imie[10], Nazwisko[20], Numer[1][7];
+	char Imie[20], Nazwisko[20], Numer[1][7];
 	void ZerowanieNumerow();
+	void ZerowanieNazwisk();
 public:
-	Kontakt(char*, char*, char*, char*, char*, char*, char*);
+	Kontakt(char*, char*, char*, char*, char*, char*, char*, NumerTelefonu*);
 	void ScalImieNazwisko(char*);
 	NumerTelefonu tabnr[5];
-
+	
 };
 
 
