@@ -25,6 +25,7 @@
     <ClCompile Include="Obraz_PNG.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Przezroczystość_po_kolorze.cpp" />
     <ClCompile Include="Reakcja_na_klawisze.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -34,7 +35,9 @@
     <ClCompile Include="Textury_Ladowanie_i_Renderowanie.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Viewport.cpp" />
+    <ClCompile Include="Viewport.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{25D18E81-301D-4759-8AB0-7C0BA16A6620}</ProjectGuid>
