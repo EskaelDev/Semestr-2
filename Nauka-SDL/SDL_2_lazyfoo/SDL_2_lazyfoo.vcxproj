@@ -25,7 +25,10 @@
     <ClCompile Include="Obraz_PNG.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Przezroczystość_po_kolorze.cpp" />
+    <ClCompile Include="Przezroczystość_po_kolorze.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Reakcja na mysz.cpp" />
     <ClCompile Include="Reakcja_na_klawisze.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

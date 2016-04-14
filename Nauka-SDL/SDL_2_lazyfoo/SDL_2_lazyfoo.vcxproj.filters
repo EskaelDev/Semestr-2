@@ -36,5 +36,8 @@
     <ClCompile Include="Przezroczystość_po_kolorze.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Reakcja na mysz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
