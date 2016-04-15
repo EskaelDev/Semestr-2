@@ -8,7 +8,7 @@
 using namespace std;
 
 const int SCREEN_WIDTH = 1366; //S zerokosc okna
-const int SCREEN_HEIGHT = 798; // Wysokosc okna
+const int SCREEN_HEIGHT = 768; // Wysokosc okna
 
 							   //Protorypy
 bool init();	// inicjalizacja SDL
