@@ -349,7 +349,7 @@ bool loadMedia()
 	bool success = true;
 
 	//Load sprites
-	if (!gButtonSpriteSheetTexture.loadFromFile("c:/Users/tomek/OneDrive/Documents/Studia/Semestr II/PO projekt/Grafiki/Splashe/Produkcja.png"))
+	if (!gButtonSpriteSheetTexture.loadFromFile("c:/Users/tomek/OneDrive/Documents/Studia/Semestr II/PO projekt/Grafiki/Splashe/prod-all.png"))
 	{
 		printf("Failed to load button sprite texture!\n");
 		success = false;
@@ -457,6 +457,7 @@ int main(int argc, char* args[])
 
 	//Free resources and close SDL
 	close();
+	_getch();
 
 	return 0;
 }
