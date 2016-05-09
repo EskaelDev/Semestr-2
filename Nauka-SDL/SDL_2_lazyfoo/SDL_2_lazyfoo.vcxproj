@@ -22,7 +22,10 @@
     <ClCompile Include="..\Streching\Streching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="czcionki.cpp" />
+    <ClCompile Include="czcionki.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Klawisz_dzwiek.cpp" />
     <ClCompile Include="Obraz_PNG.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -96,8 +99,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\SDL 2_image-2.0.1\include;C:\SDL 2\SDL2-2.0.4\include;C:\SDL2_ttf-2.0.14\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\SDL 2_image-2.0.1\lib\x86;C:\SDL 2\SDL2-2.0.4\lib\x86;C:\SDL2_ttf-2.0.14\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\SDL2_mixer-2.0.1\include;C:\SDL 2_image-2.0.1\include;C:\SDL 2\SDL2-2.0.4\include;C:\SDL2_ttf-2.0.14\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\SDL2_mixer-2.0.1\lib\x86;C:\SDL 2_image-2.0.1\lib\x86;C:\SDL 2\SDL2-2.0.4\lib\x86;C:\SDL2_ttf-2.0.14\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -106,7 +109,7 @@
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>

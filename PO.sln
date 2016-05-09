@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Struktury S_2 G_2 Sek_22", "Struktury S_2 G_2 Sek_22\Struktury S_2 G_2 Sek_22.vcxproj", "{41701AA4-2CDD-49A1-88E2-73862CD5666C}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Przeciążanie operatorów Dyn_String", "Przeciążanie operatorów DynString\Przeciążanie operatorów DynString.vcxproj", "{E4704AD8-BD1E-4B07-8ACE-1F9EBF2D94C5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Przeciążanie_operatorów Vector", "Przeciążanie_operatorów Vector\Przeciążanie_operatorów Vector.vcxproj", "{5D75903B-9F7A-4587-958E-F060DBAF892E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dziedziczenie_liczba_rzymska", "Dziedziczenie_liczba_rzymska\Dziedziczenie_liczba_rzymska.vcxproj", "{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,14 @@ Global
 		{5D75903B-9F7A-4587-958E-F060DBAF892E}.Release|x64.Build.0 = Release|x64
 		{5D75903B-9F7A-4587-958E-F060DBAF892E}.Release|x86.ActiveCfg = Release|Win32
 		{5D75903B-9F7A-4587-958E-F060DBAF892E}.Release|x86.Build.0 = Release|Win32
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Debug|x64.ActiveCfg = Debug|x64
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Debug|x64.Build.0 = Debug|x64
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Debug|x86.Build.0 = Debug|Win32
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Release|x64.ActiveCfg = Release|x64
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Release|x64.Build.0 = Release|x64
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Release|x86.ActiveCfg = Release|Win32
+		{216746F2-AB5B-46B1-BAAD-A01461D7A6BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

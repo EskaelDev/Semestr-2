@@ -42,5 +42,8 @@
     <ClCompile Include="czcionki.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Klawisz_dzwiek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
