@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stos", "AISD\AISD.vcxproj", "{8475FFA1-EC7A-4311-A026-DDDD54048F33}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sortowanie", "Sortowanie\Sortowanie.vcxproj", "{3E1E0355-EBA1-4A88-9219-4626D6720E2B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sortowanie_Struct", "Sortowanie_Struct\Sortowanie_Struct.vcxproj", "{B5A878B4-0FCF-4C30-A55A-D6A94E740F4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drzewo_Binarne_glebokosc", "Drzewo_Binarne_glebokosc\Drzewo_Binarne_glebokosc.vcxproj", "{258500CA-88EB-4866-A5E5-71BCFCEBE094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{B5A878B4-0FCF-4C30-A55A-D6A94E740F4D}.Release|x64.Build.0 = Release|x64
 		{B5A878B4-0FCF-4C30-A55A-D6A94E740F4D}.Release|x86.ActiveCfg = Release|Win32
 		{B5A878B4-0FCF-4C30-A55A-D6A94E740F4D}.Release|x86.Build.0 = Release|Win32
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Debug|x64.ActiveCfg = Debug|x64
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Debug|x64.Build.0 = Debug|x64
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Debug|x86.ActiveCfg = Debug|Win32
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Debug|x86.Build.0 = Debug|Win32
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Release|x64.ActiveCfg = Release|x64
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Release|x64.Build.0 = Release|x64
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Release|x86.ActiveCfg = Release|Win32
+		{258500CA-88EB-4866-A5E5-71BCFCEBE094}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
