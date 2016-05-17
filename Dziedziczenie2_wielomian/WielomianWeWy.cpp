@@ -11,10 +11,10 @@ WielomianWeWy::WielomianWeWy(int s):Wielomian(s)
 void WielomianWeWy::Wprowadz()
 {
 	int a, i;
-	Wielomian::Stopien();
-	cout << "Ktory wspolczynnik zmienic? " << endl;
+	cout << "\n" << Wielomian::Stopien() << endl;
+	cout << "Ktory wspolczynnik zmienic? ";
 	cin >> i;
-	cout << "Jaka wartosc ustawic? " << endl;
+	cout << "Jaka wartosc ustawic? ";
 	cin >> a;
 	Wielomian::Ustaw(i, a);
 }

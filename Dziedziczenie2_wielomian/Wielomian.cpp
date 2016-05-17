@@ -22,7 +22,7 @@ Wielomian::Wielomian(int n)
 	return n;
 }
 
-inline void Wielomian::Ustaw(int i, int a)
+void Wielomian::Ustaw(int i, int a)
 {
 	this->a[i] = a;
 }

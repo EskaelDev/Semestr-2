@@ -5,6 +5,8 @@ class DwumianKwadratowy :
 {
 public:
 	DwumianKwadratowy();
+	inline float Delta();
+	void Wyswietl();
 	~DwumianKwadratowy();
 };
 
