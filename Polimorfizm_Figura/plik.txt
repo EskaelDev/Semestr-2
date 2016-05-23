@@ -1,8 +1,16 @@
-Kwadrat
+kwadrat
 5
-Prostokat
+prostokat
 5 4
-Kolo
+kolo
 4
-Elipsa
+elipsa
 4 6
+kwadrat
+2
+prostokat
+2 2
+kolo
+4
+elipsa
+4 4

@@ -1,6 +1,6 @@
 #pragma once
 #include "Figura.h"
-const int PI = 3.14;
+
 
 class Kolo :
 	public Figura
