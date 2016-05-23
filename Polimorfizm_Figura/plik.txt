@@ -1,0 +1,8 @@
+Kwadrat
+5
+Prostokat
+5 4
+Kolo
+4
+Elipsa
+4 6
