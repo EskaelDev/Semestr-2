@@ -21,9 +21,13 @@ public:
 	{
 		return PI*a*b;
 	}
-	int Obwod()
+	double Obwod()
 	{
+		if (a>b)
 		return PI*((3 / 2)*(a + b) - sqrt(a - b));
+		else
+			return PI*((3 / 2)*(a + b) - sqrt(b - a));
+
 	}
 };
 

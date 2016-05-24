@@ -19,7 +19,7 @@ public:
 	{
 		return a*b;
 	}
-	int Obwod()
+	double Obwod()
 	{
 		return 2 * a + 2 * b;
 	}

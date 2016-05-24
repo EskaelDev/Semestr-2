@@ -32,32 +32,34 @@ int main()
 	}
 	plik.close();
 
-	Figura *tablica[10];
+	Figura *tablica[20];
 	string linia;
+	int j = 0;
 	plik.open("plik.txt", ios::in);
 	if (plik.good() == false)
 		cout << "Blad otwarcia pliku" << endl;
 	else
-		for (int i = 0; i < (licznik / 2) - 1; i++)
+		for (int i = 0; i < (licznik / 2); i++)
 		{
+			
 			int buff1, buff2;
 			plik >> linia;
 			if (linia == "prostokat")
 			{
 				plik >> buff1;
 				plik >> buff2;
-				tablica[i] = new Prostokat(linia, buff1, buff2);
+				tablica[j] = new Prostokat(linia, buff1, buff2);
 			}
 			else if (linia == "kwadrat")
 			{
 				plik >> buff1;
-				tablica[i] = new Kwadrat(linia, buff1);
+				tablica[j] = new Kwadrat(linia, buff1);
 			}
 			else
 			if (linia == "kolo")
 			{
 				plik >> buff1;
-				tablica[i] = new Kolo(linia, buff1);
+				tablica[j] = new Kolo(linia, buff1);
 
 			}
 			else
@@ -65,17 +67,19 @@ int main()
 			{
 				plik >> buff1;
 				plik >> buff2;
-				tablica[i] = new Elipsa(linia, buff1, buff2);
+				tablica[j] = new Elipsa(linia, buff1, buff2);
 			}
-			i++;
+			//i++;
+			j++;
 		}
 
 	plik.close();
-	for (int i = 0; i < 16; i++)
+	for (int i = 0; i < 8; i++)
 	{
 		cout << tablica[i]->Nazwa() << " Obwod: " << tablica[i]->Obwod() << " Pole: " << tablica[i]->PolePowierzchni() << endl;
-		i++;
+		//i++;
 	}
+
 	getch();
     return 0;
 }

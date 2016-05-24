@@ -17,7 +17,7 @@ public:
 	{
 		return pow(a, 2);
 	}
-	int Obwod()
+	double Obwod()
 	{
 		return 4*a;
 	}

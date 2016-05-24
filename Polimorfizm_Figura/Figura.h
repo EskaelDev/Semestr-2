@@ -5,7 +5,7 @@ class Figura
 {
 public:
 	virtual string Nazwa() = 0;
-	virtual int Obwod() = 0;
+	virtual double Obwod() = 0;
 	virtual int PolePowierzchni() = 0;
 };
 

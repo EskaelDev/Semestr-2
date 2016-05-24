@@ -19,7 +19,7 @@ public:
 	{
 		return PI*pow(r, 2);
 	}
-	int Obwod()
+	double Obwod()
 	{
 		return PI*2*r;
 	}
